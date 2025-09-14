@@ -3,7 +3,7 @@ if($ENV{ROS_VERSION} STREQUAL "1")
 
   # Copyright(c) 2019 livoxtech limited.
 
-  cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.16)
 
 
   #---------------------------------------------------------------------------------------
@@ -188,7 +188,7 @@ else($ENV{ROS_VERSION} STREQUAL "2")
 
   # Copyright(c) 2020 livoxtech limited.
 
-  cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
   project(livox_ros_driver2)
 
   # Default to C99
